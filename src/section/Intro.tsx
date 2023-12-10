@@ -34,7 +34,7 @@ export function Intro() {
             </h2>
 
             <div className="text-slate-500 mt-20 text-base lg:text-lg space-y-4 max-w-3xl mx-auto">
-                <p>
+                <p className="text-justify">
                     JS Club là tên viết tắt của{" "}
                     <span className="text-red-600 font-semibold">
             Japanese Software Engineers Club – Câu lạc bộ Kỹ sư phần mềm Nhật
@@ -50,7 +50,7 @@ export function Intro() {
           </span>
                 </p>
 
-                <p>
+                <p className="text-justify">
                     JS Club cũng là câu lạc bộ đầu tiên và duy nhất tại Đại
                     học FPT Hà Nội có{" "}
                     <span className="text-red-600 font-semibold">11 lần liên tiếp</span>{" "}
