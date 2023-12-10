@@ -10,10 +10,7 @@ export function Hero() {
         opacity: '0.4',
         backgroundColor: 'black',
         zIndex: '1',
-        objectFit: 'cover'
     }
-    // @ts-ignore
-    // @ts-ignore
     return (
         <div className="hero relative top-0 bottom-0 my-auto mx-0 z-5 bg-black">
             <span className="z-3 absolute w-full text-center top-0 bottom-0 my-auto mx-0 text-white flex items-center justify-center text-6xl font-bold">
@@ -32,6 +29,7 @@ export function Hero() {
                 src={Bg}
                 style={bgStyle}
                 alt={"background-image"}
+                className={"object-cover"}
             />
 
             {/* Sakura effect */}
