@@ -21,10 +21,10 @@ export function Header() {
 
             <div className="nav mx-auto">
                 <Link className="p-5" href="/">Home</Link>
-                <Link className="p-5" href="/groups">Groups</Link>
-                <Link className="p-5" href="/products">Products</Link>
-                <Link className="p-5" href="/history">History</Link>
-                <Link className="p-5" href="/achievements">Achievements</Link>
+                <Link className="p-5" href="/departments">Các Ban</Link>
+                <Link className="p-5" href="/products">Sản Phẩm</Link>
+                <Link className="p-5" href="/history">Lịch sử CLB</Link>
+                <Link className="p-5" href="/achievements">Thành tựu</Link>
             </div>
 
             <Button content={"Page"}/>

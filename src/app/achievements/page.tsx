@@ -1,4 +1,12 @@
 import Image from 'next/image'
+import {Metadata} from "next";
+export const metadata: Metadata = {
+    title: 'JS CLUB | Thành tựu',
+    description: 'JS Club website',
+    icons: {
+        icon: './favicon.png', // /public path
+    },
+}
 
 export default function Page() {
   return (
