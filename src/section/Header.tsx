@@ -7,19 +7,18 @@ export function Header() {
 
     return (
         <header
-            className="z-10 h-16 bg-red-800 text-white flex justify-between items-center fixed top-0 left-0 right-0 px-52 py-10 border-b-2 border-black">
+            className="z-10 h-10 sm:h-16 bg-red-800 text-white flex justify-between items-center fixed top-0 left-0 right-0 px-8 md:px-52 py-8 sm:py-10 border-b-2 border-black">
             <div>
                 <Link href="/">
                     <Image
                         src={Logo}
-                        width={70}
-                        height={70}
                         alt={"Logo"}
+                        className={"h-16 w-16 sm:w-20 sm:h-20"}
                     />
                 </Link>
             </div>
 
-            <div className="nav mx-auto">
+            <div className="nav mx-auto hidden lg:block">
                 <Link className="p-5" href="/">Trang chủ</Link>
                 <Link className="p-5" href="/about">Giới thiệu</Link>
                 <Link className="p-5" href="/history">Lịch sử CLB</Link>
@@ -27,7 +26,10 @@ export function Header() {
                 <Link className="p-5" href="/achievements">Thành tựu</Link>
             </div>
 
-            <Button content={"Page"}/>
+            <Button
+                content={"Page"}
+                clasName={"hidden md:block"}
+            />
         </header>
     )
 }
