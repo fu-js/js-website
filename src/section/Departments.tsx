@@ -39,26 +39,8 @@ const departments = [
 ];
 
 export function Departments() {
-    const [ref, inView] = useInView({
-        threshold: 0.05,
-    });
-    const control = useAnimation();
-
-    useEffect(() => {
-        if (inView) {
-            control.start("visible");
-        } else {
-            control.start("hidden");
-        }
-    }, [control, inView]);
-
     return (
-        <motion.section
-            ref={ref}
-            variants={oddBoxVariant}
-            initial="hidden"
-            animate={control}
-        >
+        <motion.section>
             <h2
                 className="my-6 text-3xl font-semibold uppercase text-red-600 text-center"
                 id="timeline"
