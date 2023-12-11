@@ -61,7 +61,7 @@ const images = [
     },
 ];
 
-function Gallery() {
+export function Gallery() {
 
     useEffect(() => {
         new Macy(macyOptions);
@@ -86,4 +86,3 @@ function Gallery() {
     );
 }
 
-export default Gallery;
