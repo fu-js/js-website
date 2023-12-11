@@ -37,7 +37,7 @@ export function Header() {
             <Navigation className="mx-auto hidden lg:block" />
 
             <div onClick={hiddenMenu}
-                 className="nav-container w-screen h-screen fixed top-16 md:top-20 left-0 flex hidden justify-start opacity-90 lg:hidden">
+                 className="nav-container w-screen h-screen fixed top-16 md:top-20 left-0 flex hidden justify-start opacity-95 lg:hidden">
                 <Navigation func={hiddenMenu} className="nav h-full w-full md:w-3/4 left-0 pt-5  flex flex-col items-center justify-start text-base md:text-lg font-bold text-red-800 border-2 border-black bg-white" />
             </div>
 
