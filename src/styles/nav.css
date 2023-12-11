@@ -1,0 +1,12 @@
+.nav {
+    animation: modalFadein ease .5s;
+}
+
+@keyframes modalFadein {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

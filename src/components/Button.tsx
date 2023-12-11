@@ -1,13 +1,15 @@
+import Link from "next/link";
 
 interface ButtonProps {
+    href?: string;
     content?: string;
     clasName?: string;
 }
 
-export function Button ({ clasName, content } : ButtonProps) {
+export function Button ({ clasName, content, href } : ButtonProps) {
     return (
         <>
-            <button className={`${clasName} border-2 rounded-3xl py-3 px-5`}>{content}</button>
+            <Link href={`${href}`} className={`${clasName} border-2 rounded-3xl text-sm md:text-base py-2 px-3 md:py-3 md:px-5 mr-5`}>{content}</Link>
         </>
     )
 }
