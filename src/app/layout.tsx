@@ -9,9 +9,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'JS CLUB | Home',
   description: 'JS Club website',
-    icons: {
-        icon: './favicon.png', // /public path
-    },
 }
 
 export default function RootLayout({

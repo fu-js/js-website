@@ -12,7 +12,7 @@ export function Hero() {
         zIndex: '1',
     }
     return (
-        <div className="hero relative top-0 bottom-0 my-auto mx-0 z-5 bg-black">
+        <section className="hero relative top-0 bottom-0 my-auto mx-0 z-5 bg-black">
             <span className="z-3 absolute w-full text-center top-0 bottom-0 my-auto mx-0 text-white flex items-center justify-center text-4xl md:text-6xl font-bold">
                     <Typewriter
                         onInit={(typewriter) => {
@@ -48,6 +48,6 @@ export function Hero() {
                 <span></span><span></span><span></span><span></span><span></span>
                 <span></span><span></span><span></span><span></span><span></span>
             </div>
-        </div>
+        </section>
     )
 }
