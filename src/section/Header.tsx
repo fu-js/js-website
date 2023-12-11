@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Button } from "@/components/Button";
 import { Menu } from "@/components/Menu";
 import {Navigation} from "@/components/Navigation";
-import Logo from '../../public/logo.png'
+import Logo from '../../public/assets/main/logo.png'
 import '../styles/nav.css'
 
 export function Header() {
