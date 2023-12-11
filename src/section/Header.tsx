@@ -27,15 +27,11 @@ export function Header() {
 
             <Navigation className="nav z-3 absolute top-16 h-screen w-full pt-5 mx-auto lg:hidden flex hidden flex-col items-center justify-start text-base font-bold text-red-800 border-2 border-black bg-white" />
 
-
-
             <Button
                 href={"https://www.facebook.com/fu.jsclub"}
                 content={"Page"}
                 clasName={""}
             />
-
-
 
         </header>
     )

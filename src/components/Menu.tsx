@@ -9,7 +9,7 @@ export function Menu({ className } : { className? : string }) {
                 const nav = document.querySelector('.nav')
                 // @ts-ignore
                     nav.classList.toggle('hidden')
-                    
+
                 }}
                 className="inline-flex items-center w-16 h-16 justify-center text-sm text-white rounded-lg md:hidden" >
                 <span className="sr-only">Open main menu</span>
