@@ -8,7 +8,7 @@ export function Footer() {
                 <img
                     src="/assets/main/JS.png"
                     alt="logo"
-                    className="w-48 h-32 object-cover"
+                    className="w-48 h-36 object-cover"
                 />
                 {/* Second column */}
                 <div className="flex flex-col space-y-4">
