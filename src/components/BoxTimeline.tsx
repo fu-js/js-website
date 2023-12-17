@@ -5,7 +5,7 @@ interface BoxProps {
     description?: string;
 }
 
-export function Box({ className, title, time, description } : BoxProps) {
+export function BoxTimeline({ className, title, time, description } : BoxProps) {
 
     return (
         <div className={"relative flex flex-col mt-16 p-6 space-y-4 text-center md:text-left bg-white rounded-lg md:mt-8 md:w-1/3"}>

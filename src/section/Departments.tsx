@@ -65,9 +65,9 @@ export function Departments() {
                             </div>
                         </div>
                         <p className="text-slate-500 max-w-lg mx-auto px-6 py-8 md:py-0 text-center md:text-left basis-1/2">
-              <span className="text-red-600 font-medium">
-                {description.split(" ").slice(0, 3).join(" ")}
-              </span>{" "}
+                          <span className="text-red-600 font-medium">
+                            {description.split(" ").slice(0, 3).join(" ")}
+                          </span>{" "}
                             {description.split(" ").slice(3).join(" ")}
                         </p>
                     </div>
